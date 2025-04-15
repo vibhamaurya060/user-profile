@@ -1,0 +1,100 @@
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .edit-btn, .details-btn {
+    background-color: #7bb3b5;
+    color: white;
+    border: none;
+    padding: 1px 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .edit-btn:hover, .details-btn:hover {
+    background-color: #45a09e;
+  }
+  
+  .delete-btn {
+    background-color: #ca8c87;
+    color: white;
+    border: none;
+    padding: 6px 1px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  .details-modal {
+    max-width: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  
+  .profile-details {
+    padding: 10px;
+  }
+  
+  .profile-image {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-info {
+    margin-bottom: 20px;
+  }
+  
+  .info-row {
+    margin-bottom: 10px;
+    display: flex;
+  }
+  
+  .info-label {
+    font-weight: bold;
+    width: 120px;
+    min-width: 120px;
+  }
+  
+  .info-value {
+    flex: 1;
+  }
+  
+  .description {
+    flex-direction: column;
+  }
+  
+  .description .info-value {
+    margin-top: 5px;
+  }
+  
+  .social-links {
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+  }
+  
+  .social-link {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  
+  .social-label {
+    font-weight: bold;
+    width: 120px;
+  }
+  
+  .social-value {
+    flex: 1;
+  }
